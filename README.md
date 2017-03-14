@@ -1,9 +1,15 @@
 Unofficial University of Udine Beamer Template
 ==============================================
 
-Welcome! This is the unofficial University of Udine Beamer Template. This style has been developed following the "Manuale di Stile" (Style Manual) of the University of Udine. You can find the manual [here](https://www.uniud.it/it/ateneo-uniud/ateneo-uniud/identita-visiva/manuali-immagine-stile/manuale-stile).
+Welcome! This is the unofficial University of Udine Beamer Template. This style has been developed following the "Manuale di Stile" (Style Manual) of the University of Udine. You can find the manual [here](https://www.uniud.it/it/ateneo-uniud/ateneo-uniud/identita-visiva/manuali-immagine-stile/manuale-stile). 
 
-Note: for some reason, the RGB values specified in the manual do NOT render correctly in Beamer, so they have been redefined for this document using the high level chromo-optic deep neural quantistic technology offered by Microsoft Paint's color picker.
+You can start using the template right away using [Overleaf](https://www.overleaf.com/latex/templates/university-of-udine-unofficial-beamer-theme/zndkgxrjsdzt), or you can download the source code and work locally.
+
+Note: for some reason, the RGB values specified in the manual do NOT render correctly in Beamer, so they have been redefined for this document using the high level chromo-optic deep neural quantistic technology provided by Microsoft Paint's color picker.
+
+# Example Presentation
+
+You can see the example presentation contained in this repository [here](https://www.overleaf.com/latex/templates/university-of-udine-unofficial-beamer-theme/zndkgxrjsdzt.pdf).
 
 # Requirements
 
@@ -19,7 +25,7 @@ The development of this theme was made possible by the [TeX community at Stack E
 
 This theme contains items borrowed from Ratul Saha's Presento theme, available [here](https://github.com/RatulSaha/presento). In particular, `framecard` and `framepic` are based on the respective counterparts in Presento.
 
-Darth Vader picture credits: [Stefano Buttafoco / Shutterstock.com](https://www.shutterstock.com/it/image-photo/san-benedetto-del-tronto-italy-may-282569735?src=Gy7YesGiMCm-Z7U5ypiWvw-1-11) (**not for commercial use**)
+Darth Vader picture credits: [Stefano Buttafoco / Shutterstock.com](https://www.shutterstock.com/it/image-photo/san-benedetto-del-tronto-italy-may-282569735?src=Gy7YesGiMCm-Z7U5ypiWvw-1-11) (**not for commercial use**).
 
 # Author
 
