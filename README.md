@@ -19,6 +19,8 @@ The development of this theme was made possible by the [TeX community at Stack E
 
 This theme contains items borrowed from Ratul Saha's Presento theme, available [here](https://github.com/RatulSaha/presento). In particular, `framecard` and `framepic` are based on the respective counterparts in Presento.
 
+Darth Vader picture credits: [Stefano Buttafoco / Shutterstock.com](https://www.shutterstock.com/it/image-photo/san-benedetto-del-tronto-italy-may-282569735?src=Gy7YesGiMCm-Z7U5ypiWvw-1-11) (**not for commercial use**)
+
 # Author
 
 Theme developed by Marco Basaldella in its third final and long year of Ph.D. at the University of Udine.
