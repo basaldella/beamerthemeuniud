@@ -57,6 +57,28 @@
 \tableofcontents
 \end{frame}
 
+\section{Colors}
+
+\begin{frame}{Colors}
+
+For this template we defined four colors, following the Style Manual of the University of Udine:
+\begin{itemize}
+\item \textcolor{white}{\marker{\texttt{UniOrange}}}
+\item \textcolor{white}{\marker[UniBlue]{\texttt{UniBlue}}}
+\item \textcolor{white}{\marker[UniBrown]{\texttt{UniBrown}}}
+\item \textcolor{white}{\marker[UniGold]{\texttt{UniGold}}}
+\end{itemize}
+
+\vskip 0.5cm
+
+You can use these colors as you want in your presentation. For example, you can \textbf{\textcolor{UniGold}{color the text in gold}} by writing \texttt{\textbackslash\{UniGold\}\{my gold text\}}.
+
+\vskip 0.5cm
+
+We also redefined many of the most common \LaTeX{} and Beamer commands, like \texttt{itemize}, \texttt{block}, etc. You will see samples of these commands in the following slides.
+
+\end{frame}
+
 \section{Blocks}
 
 \begin{frame} 
@@ -185,7 +207,7 @@ A quote this is.
 
 \end{frame}
 
-\section{Publications}
+\section{Bibliography and Publications}
 \begin{frame}[fragile]
 \frametitle{Bibliography}
 
@@ -269,7 +291,7 @@ You can see the results of the commands above in the following slides.
     \end{flushright}	
 }
 
-\begin{frame}[fragile]
+\begin{frame}[t,fragile,allowframebreaks]
 \frametitle{Other bonus commands}
 
 We provide two other bonus commands:
@@ -282,7 +304,12 @@ We provide two other bonus commands:
   \texttt{luke.skywalker@uniud.it}
 }
 \end{verbatim}
-\item[\texttt{framefill}] you can use \texttt{\textbackslash framefill} put the text at the bottom of a slide by filling all the vertical space. 
+\item[\texttt{marker}] you can use \texttt{\textbackslash marker} to highlight some text. The default color is \marker{orange}, but you can also \marker[UniBlue]{use a custom color}. For example:
+\begin{verbatim}
+\marker{Default color}
+\marker[UniBlue]{Custom Color}
+\end{verbatim}
+\item[\texttt{framefill}] you can use \texttt{\textbackslash framefill} to put the text at the bottom of a slide by filling all the vertical space.
 \end{description}
 
 \end{frame}
