@@ -1,10 +1,11 @@
 % general font
-\usepackage[sfdefault]{classico} % URW Classico Font
+\renewcommand*\rmdefault{ppl}
 % monospaced
 \renewcommand*\ttdefault{lmvtt} % Latin Modern Mono Proportional Font
-% roman family	
-\renewcommand*\rmdefault{cmr}	% Computer Modern Roman Font
 \usepackage[T1]{fontenc}
+
+% use roman fonts as default family
+\renewcommand{\familydefault}{\rmdefault}
 
 % Font sizes
 \setbeamerfont{title}{size=\Huge}

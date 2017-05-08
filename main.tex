@@ -57,6 +57,30 @@
 \tableofcontents
 \end{frame}
 
+\section{Compiling}
+\begin{frame}[fragile]
+\frametitle{Compiling}
+
+\begin{alertblock}{Warning}
+You can ignore this slide if you're working with Overleaf.
+\end{alertblock}
+
+To compile this deck you'll need the \texttt{biber} package. Probably your \TeX editor already supports it; if not, you will easily find online the instructions to install it.
+
+\vskip 0.5cm
+
+If you're not using an editor, you can compile this presentation using the command line by running:
+
+\begin{verbatim}
+$ pdflatex main.tex
+$ biber main.bcf
+$ pdflatex main.tex
+$ pdflatex main.tex
+\end{verbatim}
+
+
+\end{frame}
+
 \section{Colors}
 
 \begin{frame}{Colors}
