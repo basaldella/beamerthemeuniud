@@ -27,6 +27,11 @@
 \usepackage[style=authoryear,backend=biber]{biblatex}
 \addbibresource{bibliography.bib}
 
+% Author names in publication list are consistent 
+% i.e. name1 surname1, name2 surname2
+% See https://tex.stackexchange.com/questions/106914/biblatex-does-not-reverse-the-first-and-last-names-of-the-second-author
+\DeclareNameAlias{author}{first-last}
+
 %%% Suppress biblatex annoying warning
 \usepackage{silence}
 \WarningFilter{biblatex}{Patching footnotes failed}

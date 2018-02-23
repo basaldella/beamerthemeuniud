@@ -59,17 +59,16 @@
 %%%%%	~Frame with huge centered text~		%%%%%
 %%%%%										%%%%%
 \newcommand{\framecard}[2][UniOrange]{
-	
-    {\setbeamercolor{background canvas}{bg=#1}
-      \begin{frame}[plain]
-        \vfill
-        \begin{center}
-          {\color{white}\Huge\textbf{
-            {#2}
-          }}
-        \end{center}
-        \vfill
-      \end{frame}
+    {\setbeamercolor{background canvas}{bg=#1}%
+      \begin{frame}[plain]%
+        \vfill%
+        \begin{center}%
+          {\color{white}\Huge\textbf{%
+            {#2}%
+          }}%
+        \end{center}%
+        \vfill%
+      \end{frame}%
   }
 }
 
