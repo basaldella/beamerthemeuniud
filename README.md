@@ -9,7 +9,7 @@ Note: for some reason, the RGB values specified in the manual do NOT render corr
 
 # Example Presentation
 
-You can see the example presentation contained in this repository [here](https://www.overleaf.com/latex/templates/university-of-udine-unofficial-beamer-theme/zndkgxrjsdzt.pdf).
+You can see an example of the presentation contained in this repository [here](https://www.overleaf.com/latex/templates/university-of-udine-unofficial-beamer-theme/zndkgxrjsdzt.pdf).
 
 # Requirements
 
@@ -31,6 +31,8 @@ Darth Vader picture credits: [Stefano Buttafoco / Shutterstock.com](https://www.
 
 Theme developed by Marco Basaldella in its third final and long year of Ph.D. at the University of Udine.
 
-# License
+# License&Credits
 
-This theme is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), which means that you can do whatever you want with this theme, as long as you credit me.
+This theme is licensed under the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), which means that you can do whatever you want with this theme, as long as you put a link of this repo at least in the source code.
+
+However, you **don't need** to explictly credit me if you just make a presentation using this template.
